@@ -1,6 +1,7 @@
 .flex-center-screen-column{
     display: flex;
     justify-content: center;
+    align-content: center;
     align-items: center;
     flex-direction: column;
     height: 100%;
@@ -27,6 +28,14 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.flex-item-row{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
 }
 
 .break {

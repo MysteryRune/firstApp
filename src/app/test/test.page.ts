@@ -17,4 +17,12 @@ export class TestPage implements OnInit {
   ngOnInit() {
   }
 
+  showName() {
+    var fullname = document.getElementById("full-name") as HTMLInputElement;
+    var value = fullname?.value;
+
+    const Greeting = document.getElementById("greeting") as HTMLElement;
+    Greeting.innerHTML = "Hello, " + value;
+  }
+
 }
